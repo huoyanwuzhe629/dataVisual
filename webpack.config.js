@@ -66,7 +66,8 @@ var config = {
             '@bizfe/biz-fetch',
             'react',
             'react-dom',
-            'react-router'
+            'react-router',
+            'echarts/lib/echarts'
         ],
 
     },

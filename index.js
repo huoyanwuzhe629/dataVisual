@@ -2,7 +2,7 @@
  * @Author: xiongsheng
  * @Date:   2016-11-09 14:54:59
  * @Last Modified by:   xiongsheng
- * @Last Modified time: 2017-02-04 16:16:26
+ * @Last Modified time: 2017-02-08 12:54:51
  */
 
 'use strict';
@@ -25,7 +25,7 @@ import {
 
 import 'normalize.css';
 import 'antd/dist/antd.css';
-// import './asset/style/app.less';
+import './asset/style/app.less';
 
 const history = useRouterHistory(createHashHistory)({
     queryKey: false
