@@ -2,7 +2,7 @@
 * @Author: xiongsheng
 * @Date:   2017-02-08 14:26:30
 * @Last Modified by:   xiongsheng
-* @Last Modified time: 2017-02-08 18:58:01
+* @Last Modified time: 2017-02-09 14:22:27
 */
 
 'use strict';
@@ -53,7 +53,7 @@ class Home extends Component {
 
     render() {
         return (
-            <div ref="pieReact" style={{width: "100%", height: "1000px"}}></div>
+            <div ref="pieReact" style={{width: "100%", height: "700px"}}></div>
         )
     }
 

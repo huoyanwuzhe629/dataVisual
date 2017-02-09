@@ -2,12 +2,14 @@
 * @Author: xiongsheng
 * @Date:   2017-02-08 14:26:30
 * @Last Modified by:   xiongsheng
-* @Last Modified time: 2017-02-08 18:05:27
+* @Last Modified time: 2017-02-09 10:20:50
 */
 
 'use strict';
 import React, {Component} from 'react';
 import { Menu, Breadcrumb, Icon } from 'antd';
+import {Link} from 'react-router';
+
 const SubMenu = Menu.SubMenu;
 
 class Content extends Component {
@@ -25,9 +27,9 @@ class Content extends Component {
               <div className="layout-container">
                 <aside className="layout-sider">
                   <Menu mode="inline" defaultSelectedKeys={['1']} defaultOpenKeys={['sub1']}>
-                    <SubMenu key="sub1" title={<span><Icon type="user" />Navigation 1</span>}>
-                      <Menu.Item key="1">item 1</Menu.Item>
-                      <Menu.Item key="2">item 2</Menu.Item>
+                    <SubMenu key="sub1" title={<span><Icon type="user" />概览</span>}>
+                      <Menu.Item key="1"><Link to="home" >分布概览</Link></Menu.Item>
+                      <Menu.Item key="2"><Link to="test" >test概览</Link></Menu.Item>
                       <Menu.Item key="3">item 3</Menu.Item>
                       <Menu.Item key="4">item 4</Menu.Item>
                     </SubMenu>
