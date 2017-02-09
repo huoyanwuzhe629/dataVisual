@@ -2,7 +2,7 @@
 * @Author: xiongsheng
 * @Date:   2017-02-08 14:26:30
 * @Last Modified by:   xiongsheng
-* @Last Modified time: 2017-02-08 16:06:54
+* @Last Modified time: 2017-02-08 18:05:27
 */
 
 'use strict';
@@ -46,9 +46,7 @@ class Content extends Component {
                   </Menu>
                 </aside>
                 <div className="layout-content">
-                  <div style={{ height: 240 }}>
                     {children}
-                  </div>
                 </div>
               </div>
             </div>
